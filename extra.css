@@ -222,3 +222,15 @@ img {
 .demo:hover {
   opacity: 1;
 }
+
+.show {
+  background-color: #333;
+  /*opacity: 0.4;*/
+}
+
+.transition {    
+  -webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}

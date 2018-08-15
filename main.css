@@ -69,7 +69,6 @@ ul{
 }
 
 .topnav {
-
   overflow: hidden;
   background-color: none;
   position: fixed; /**/
@@ -131,5 +130,4 @@ ul{
     text-align: left;
   }
   
-
 

@@ -24,17 +24,20 @@
 
 
 	<div class="topnav" id="myTopnav">
-	  
-	  <a href="#home" class="activee">Home</a>
-	  <a href="#aboutme">About Me</a>
-	  <a href="#experience">Experience</a>
-	  <!--<a href="#skills">Skills</a>-->
-	  <a href="#relevantcoursework">Relevant Coursework</a>
-	  <a href="#photography">Photography</a>
-	  <a href="#contact">Contact Me</a>
-	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-		<i class="fa fa-bars" style="color:white;"></i>
-	  </a>
+	  	<div class="bg transition"></div>
+
+		  <a href="#home" class="activee">Home</a>
+		  <a href="#aboutme">About Me</a>
+		  <a href="#experience">Experience</a>
+		  <!--<a href="#skills">Skills</a>-->
+		  <a href="#relevantcoursework">Relevant Coursework</a>
+		  <a href="#photography">Photography</a>
+		  <a href="#contact">Contact Me</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars" style="color:white;"></i>
+		  </a>
+		  
+		</div>
 	</div>
 
 
@@ -447,6 +450,30 @@ function showSlides(n) {
 }
 </script>
     
+<script>
+$(window).scroll(function() {
+// 100 = The point you would like to fade the nav in.
+  
+	if ($(window).scrollTop() > 100 ){
+    
+ 		$('.topnav').addClass('show');
+    
+  } else {
+    
+    $('.topnav').removeClass('show');
+    
+ 	};   	
+});
+
+$('.scroll').on('click', function(e){		
+		e.preventDefault()
+    
+  $('html, body').animate({
+      scrollTop : $(this.hash).offset().top
+    }, 1500);
+});
+
+</script>
 
 
 
