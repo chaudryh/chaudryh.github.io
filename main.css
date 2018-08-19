@@ -71,7 +71,7 @@ ul{
 .topnav {
   overflow: hidden;
   background-color: none;
-  position: fixed; /**/
+  /*position: fixed; /**/
   width: 100%;
   display: inline-block; /**/
   text-align: center; /**/
@@ -115,7 +115,7 @@ ul{
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: fixed; /**/;}
+  .topnav.responsive {position: fixed; /**/}
   .topnav.responsive .icon {
     position: absolute;
     right: 30px; /**/
