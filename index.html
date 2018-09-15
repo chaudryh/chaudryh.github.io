@@ -12,6 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1; user-scalable=no">
 	
+
 	
 </head>
 
@@ -20,11 +21,11 @@
 <a name="home"> </a>
 
 <section class="welcome">
-
+<br>
 
 	<div class="topnav" id="myTopnav">
-	<!--<div class="bg transition"></div>-->
-	  
+	  	<!--<div class="bg transition"></div>-->
+
 		  <a href="#home" class="activee">Home</a>
 		  <a href="#aboutme">About Me</a>
 		  <a href="#experience">Experience</a>
@@ -35,7 +36,8 @@
 		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
 			<i class="fa fa-bars" style="color:white;"></i>
 		  </a>
-	  <!--</div>-->
+		  
+		<!--</div>-->
 	</div>
 
 
@@ -48,35 +50,9 @@ function myFunction() {
         x.className = "topnav";
     }
 }
-
 </script>
 
-<!--<script>
-$(window).scroll(function() {
-// 100 = The point you would like to fade the nav in.
-  
-	if ($(window).scrollTop() > 100 ){
-    
- 		$('.bg').addClass('show');
-    
-  } else {
-    
-    $('.bg').removeClass('show');
-    
- 	};   	
-});
-
-$('.scroll').on('click', function(e){		
-		e.preventDefault()
-    
-  $('html, body').animate({
-      scrollTop : $(this.hash).offset().top
-    }, 1500);
-});
-
-</script>-->
-
-<br><br><br><br><br><br><br><br><br><br><br><br><h1>Hasana Chaudry</h1>
+<br><br><br><br><br><br><br><br><br><br><h1>Hasana Chaudry</h1>
 
 
 </section>
@@ -270,7 +246,7 @@ align-items: center; flex-flow: row wrap; justify-content: space-around;">
 
   <div class="mySlides">
     <div class="numbertext">2 / 7</div>
-    <img src="2.png." style="width:100%; height: 50%">
+    <img src="2.png" style="width:100%; height: 50%">
   </div>
 
   <div class="mySlides">
@@ -386,7 +362,23 @@ align-items: center; flex-flow: row wrap; justify-content: space-around;">
 <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
 <script type="text/javascript" src="teaser.js"></script>
 
-<!--<script>   
+<!--<script>
+$('.expand').each(function(){
+    var reducedHeight = $(this).height();
+    $(this).css('height', 'auto');
+    var fullHeight = $(this).height();
+    $(this).height(reducedHeight);
+    
+    $(this).data('reducedHeight', reducedHeight);
+    $(this).data('fullHeight', fullHeight);
+}).click(function() {
+    $(this).animate({height: $(this).height() == $(this).data('reducedHeight') ? $(this).data('fullHeight') : $(this).data('reducedHeight')}, 500);
+});
+</script>
+
+
+
+<script>   
    $(document).on('scroll', function (e) {
    $('#nav').css('opacity', ($(document).scrollTop() / 500));
     var st = $(window).scrollTop();
@@ -457,7 +449,7 @@ function showSlides(n) {
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
 </script>
-
+    
 <!--<script>
 $(window).scroll(function() {
 // 100 = The point you would like to fade the nav in.
@@ -482,7 +474,8 @@ $('.scroll').on('click', function(e){
 });
 
 </script>-->
-   
+
+
 
 </body>
 </html>
