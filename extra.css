@@ -71,6 +71,7 @@
     float: left;
     width: 33.33%;
     padding: 30px;
+	font-size: 2vh;
 	letter-spacing: 1px;
 	letter-spacing: 1px;
 	text-align: justify;
@@ -85,7 +86,7 @@
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .column {
         width: 100%;
     }
@@ -234,29 +235,4 @@ img {
 	-o-transition: all 1s ease-in-out;
 	transition: all 1s ease-in-out;
 }*/
-
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {html {  
-
-    background-image: url('background2.jpg') no-repeat top center fixed;
-
-    background-size: cover;
-
-    height: 100%;
-
-    overflow: hidden;
-
-}
-
- 
-
-body {  
-
-    height:100%;
-
-    overflow: scroll;
-
-    -webkit-overflow-scrolling: touch;
-
-}}
 
