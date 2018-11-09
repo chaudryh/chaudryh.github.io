@@ -198,6 +198,8 @@ img {
 .caption-container {
   text-align: center;
   background-color: #222;
+  font-family: Copperplate Gothic Regular, sans-serif;
+  font-size: 1.7vh;
   padding: 2px 16px;
   color: white;
 }
