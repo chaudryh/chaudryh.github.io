@@ -3,8 +3,9 @@ body, html {
   height: 100%;
   margin: 0;
   background-color: none;
-  font-family: Copperplate, Copperplate Gothic Light, fantasy; 
-
+  font-family: Copperplate, Copperplate Gothic Light, fantasy;
+  margin: auto;
+	
 }
 
 table 
@@ -31,7 +32,8 @@ h1{
 	letter-spacing: 15px; 
 	font-family: Copperplate Gothic Light, sans-serif;
 	text-align:center;
-	height: 100%;
+	left:50%;
+	top:50%;
 
 }
 
