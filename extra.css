@@ -1,4 +1,4 @@
-.expand {
+/* .expand {
 	cursor: pointer;
     height: 7em;
     padding: 0;
@@ -50,7 +50,7 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     background-color: none;
-}
+} */
 
 .avatar {
     width:210px;
@@ -238,4 +238,43 @@ img {
 	transition: all 1s ease-in-out;
 }*/
 
+
+#module {
+	width: 240px;
+	transition: 0.2s;
+	transition-timing-function: ease-out;
+
+}
+
+#module p.collapse[aria-expanded="false"] {
+    display: block;
+	letter-spacing: 1px;
+	font-size: 2.2vh;
+    height: 15em !important;
+    overflow: hidden;	
+	transition: 0.2s;
+	transition-timing-function: ease-out;
+
+}
+
+#module p.collapsing[aria-expanded="false"] {
+    height: 15em !important;
+	transition: height 0.2s ease-out;
+	transition-timing-function: ease-out;
+
+}
+
+#module > a.collapsed:after  {
+	color: white;
+    content: '+ Show More';
+}
+
+#module > a:not(.collapsed):after {
+	color: white;
+	content: '- Show Less';
+}
+
+#module > a{
+	text-decoration: none;
+}
 
