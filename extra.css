@@ -73,6 +73,15 @@
     padding: 0 30px;
 	font-size: 2vh;
 	letter-spacing: 1px;
+	text-align: justify;
+    /*height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.columnnn {
+    float: left;
+    width: 50%;
+    padding: 0 50px;
+	font-size: 2vh;
 	letter-spacing: 1px;
 	text-align: justify;
     /*height: 300px; /* Should be removed. Only for demonstration */
@@ -87,7 +96,7 @@
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 900px) {
-    .column {
+    .column, .columnnn {
         width: 100%;
     }
 }
