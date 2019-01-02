@@ -249,8 +249,10 @@ img {
 
 
 #module {
-	width: 240px;
-	transition: 0.2s;
+	width: 280px; /*was 240*/
+    transition: 0.2s;
+    /*text-align: justify;*/
+    /*border: solid white 2px;*/
 	transition-timing-function: ease-out;
 
 }
