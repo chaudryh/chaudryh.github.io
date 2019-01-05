@@ -39,7 +39,16 @@ h1{
 
 ul{
 	margin: 0;
-	
+}
+
+.aboutme p {
+	padding: 0 100px;
+}
+
+@media screen and (max-width: 900px) {
+  .aboutme p {
+	padding: 0;
+}
 }
 
 .pagetitle{
@@ -52,6 +61,7 @@ ul{
 	text-align:center;
 	padding: 7px;
 }
+
 .aboutme{
 	background-color: #4286f4;
 	color: white;
