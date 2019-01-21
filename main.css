@@ -4,7 +4,7 @@ body, html {
   margin: 0;
   background-color: none;
   font-family: Copperplate, Copperplate Gothic Light, Cinzel, fantasy;
-  margin: auto;
+  /* margin: auto; */
 	
 }
 
@@ -144,6 +144,7 @@ ul{
     right: 30px; /**/
     top: 0;
   }
+}
   
 .topnav.responsive a {
 	background-color: #333;
