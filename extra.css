@@ -260,11 +260,12 @@ img {
 }
 
 #module p.collapse[aria-expanded="false"] {
-    display: block;
+  display: block;
 	letter-spacing: 1px;
 	font-size: 2.2vh;
-    height: 15em !important;
-    overflow: hidden;	
+  height: 15em !important;
+  overflow: hidden;	
+  padding: 0px 8px;
 	transition: 0.2s;
 	transition-timing-function: ease-out;
 
