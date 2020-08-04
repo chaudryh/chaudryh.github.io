@@ -3,7 +3,8 @@ body, html {
   height: 100%;
   margin: 0;
   background-color: none;
-  font-family: Copperplate, Copperplate Gothic Light, Cinzel, fantasy;
+  /* font-family: Copperplate, Copperplate Gothic Light, Cinzel, fantasy; */
+  font-family: Helvetica;
   /* margin: auto; */
 	
 }
@@ -13,11 +14,12 @@ table
 height: 100%;
 width: 100%;
 vertical-align: middle;
+background-color: rgba(0, 0, 0, 0);
 }
 
 .welcome{
 	height: 100%;
-	background-image: url(background2_old.jpg); 
+	background-image: url(nightorange.png); 
 	background-size: cover; 
 	background-position: center;
 	background-repeat: no-repeat; 
@@ -27,11 +29,13 @@ vertical-align: middle;
 }
 h1{
 	color:white;
-	font-size: 7vw;
+	font-size: 6vw;
 	font-weight: 55;
 	letter-spacing: 15px; 
-	font-family: Copperplate Gothic Light, Cinzel, sans-serif;
+	/* font-family: Copperplate Gothic Light, Cinzel, sans-serif; */
+	font-family: Helvetica;
 	text-align:center;
+	text-shadow: 2px 2px black;
 	/* left:50%; */
 	/* top:50%; */
 
@@ -52,9 +56,10 @@ ul{
 }
 
 .pagetitle{
-	background-color: #53db72;
+	background-color: rgb(87, 203, 204);
 	color: white;
-	font-family: Copperplate Gothic Regular, Cinzel, sans-serif;
+	/* font-family: Copperplate Gothic Regular, Cinzel, sans-serif; */
+	font-family: Helvetica;
 	font-size: 3.5vh;
 	letter-spacing: 5px; 
 	font-weight: bold;
@@ -63,9 +68,10 @@ ul{
 }
 
 .aboutme{
-	background-color: #4286f4;
+	background-color: #353b43;
 	color: white;
-	font-family: Copperplate Gothic Regular, Cinzel, sans-serif;
+	/* font-family: Copperplate Gothic Regular, Cinzel, sans-serif; */
+	font-family: Helvetica;
 	letter-spacing: 2px;
 	line-height: 1.25;
 	font-size: 2.2vh;
@@ -75,18 +81,20 @@ ul{
 
 .experience{
 	margin: 0;
-	background-image: url(experience.jpg);
+	/* background-image: url(experience.jpg); */
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(experience2.jpeg);
 	background-size: cover; 
 	background-position: center ; 
 	background-repeat: no-repeat; 
 	background-attachment: fixed;
 	color: white;
-	font-family: Copperplate Gothic Regular, Cinzel, sans-serif;
+	/* font-family: Copperplate Gothic Regular, Cinzel, sans-serif; */
+	font-family: Helvetica;
 	letter-spacing: 2px;
 	line-height: 1.25;
 	font-size: 2vh;
 	padding: 10px 20px;
-	//height: 50vh; 
+	/* height: 50vh;  */
 
 }
 
@@ -104,7 +112,8 @@ ul{
   /*float: left;
   display: block;*/
   display: inline-block;  /*??*/
-  font-family: Copperplate Gothic Regular, Cinzel, sans-serif;
+  /* font-family: Copperplate Gothic Regular, Cinzel, sans-serif; */
+  font-family: Helvetica;
   color: white;
   border-bottom: solid 0.5px white;
   text-align: center;
@@ -116,11 +125,11 @@ ul{
 
 .topnav a:hover {
   background-color: #ddd;
-  color: #53db72;
+  color: rgb(87, 203, 204);
 }
 
 .activee {
-  color: #53db72;
+  color: rgb(87, 203, 204);
 }
 
 .topnav .icon {
